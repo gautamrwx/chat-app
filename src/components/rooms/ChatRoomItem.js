@@ -1,6 +1,5 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import { Avatar } from 'rsuite';
 import TimeAgo from 'timeago-react';
 import ProfileAvatar from '../ProfileAvatar';
 
