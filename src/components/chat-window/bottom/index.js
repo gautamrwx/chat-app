@@ -19,7 +19,7 @@ function assembleMessage(profile, chatId) {
 }
 
 const ChatBottom = () => {
-  const [input, setinput] = useState(null);
+  const [input, setinput] = useState('');
   const [isLoading, setisLoading] = useState(false);
 
   const { profile } = useProfile();

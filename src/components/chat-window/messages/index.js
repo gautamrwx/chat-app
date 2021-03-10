@@ -6,7 +6,7 @@ import MessageItem from './MessageItem';
 
 const ChatMessages = () => {
   const { chatId } = useParams();
-  const [messages, setmessages] = useState(null);
+  const [messages, setmessages] = useState('');
 
   const isChatEmpty = messages && messages.length === 0;
   const canShowMessage = messages && messages.length > 0;
