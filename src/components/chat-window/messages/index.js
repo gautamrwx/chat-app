@@ -1,3 +1,4 @@
+/* eslint-disable consistent-return */
 import React, { useState, useEffect, useCallback } from 'react';
 import { useParams } from 'react-router';
 import { Alert } from 'rsuite';
@@ -112,7 +113,7 @@ const ChatMessages = () => {
 
         Alert.info('Message has been deleted');
       } catch (err) {
-        Alert.error(err.message);
+        return Alert.error(err.message);
       }
 
       if (file) {
